@@ -18,12 +18,21 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
+              <span className="game" role="img" aria-labelledby="game">
+                  🎮
+                </span>
             </li>
             <li className="about-activity">
               <ImPointRight /> Music
+              <span className="music" role="img" aria-labelledby="music">
+                  🎵
+                </span>
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+              <span className="travel" role="img" aria-labelledby="travel">
+                  🚟
+                </span>
             </li>
           </ul>
 
